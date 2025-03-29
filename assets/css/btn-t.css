@@ -1,0 +1,23 @@
+.l-div {
+  width: 100%;
+  background: #232323;
+  height: 2px;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.3s;
+  z-index: -1;
+  border-radius: 3px;
+}
+
+.l-trig:hover .l-div {
+  height: 100%;
+}
+
+.l-trig:hover h2 {
+  color: rgb(248,240,230);
+}
+
+.l-trig {
+  cursor: pointer;
+}
+
